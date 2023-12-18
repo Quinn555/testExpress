@@ -29,5 +29,5 @@ app.route('bannana')
 app.use(express.static('stuff'))
 
 app.listen(port, () => {
-    console.log(`running port ${port}`);
+    console.log(`running port ${port} ${process.env.PASSWORD}`);
 })
