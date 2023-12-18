@@ -1,0 +1,49 @@
+p{
+    background-color: rgb(112, 255, 55);
+}
+html{
+    background-color: rgb(30, 81, 10);
+}
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    border: 5px solid rgb(30, 81, 10);
+}
+.blue{
+    display: flex;
+    background-color: rgb(88, 156, 61);
+    justify-content: space-around;
+    border-bottom: 5px solid rgb(30, 81, 10);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font: x-large'Courier New', Courier, monospace;
+}
+
+a:hover{
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.Color:hover{
+    text-decoration: underline;
+    color: rgb(123, 223, 246);
+    font-size: xx-large;
+}
+.Color1:hover{
+    text-decoration: underline;
+    color: rgb(112, 255, 55);
+    font-size: xx-large;
+}
+.Color2:hover{
+    text-decoration: underline;
+    color: rgb(255, 50, 50);
+    font-size: xx-large;
+}
+.Color3:hover{
+    text-decoration: underline;
+    color: rgb(246, 255, 81);
+    font-size: xx-large;
+}
